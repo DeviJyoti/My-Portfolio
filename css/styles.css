@@ -1,0 +1,122 @@
+
+#title {
+  background-color: yellow;
+  text-align: center;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-top: 10%;
+}
+.lft{
+  text-align: left;
+}
+a{
+  text-decoration: none;
+  color: black ;
+}
+a:hover{
+  color:#6495ED;
+}
+.topcontainer {
+  border-bottom-style: solid;
+  border-width: medium;
+  padding: 50px 0;
+}
+
+.topcontainer img{
+  margin: 30px auto;
+  padding: 30px auto;
+}
+.container-fluid{
+  padding: 1% 15%;
+}
+
+.about {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: black;
+}
+.about:hover{
+  color:black;
+}
+/* features section */
+.icon{
+  color: #6495ED;
+  margin-bottom: 1rem;
+
+}
+.icon:hover{
+  color:black;
+}
+#features{
+  padding: 5% 5%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+  /* background-color: #F5F5ED; */
+  margin:4%;
+  border-radius: 20px;
+}
+
+.zoom1 {
+
+  background-color: yellow;
+  transition: transform .2s; /* Animation */
+
+}
+
+.zoom1 :hover {
+  transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+h2
+{
+ font-size: 2rem;
+}
+p{
+  line-height: 2;
+}
+.contact-me{
+  background-color:	yellow;
+  padding: 60px auto;
+  text-align: center;
+}
+
+.contact-me h1{
+  color: #579BB1;
+  font-size: 60px;
+  padding: 0;
+  margin:0;
+}
+
+.contact-me h3{
+  margin:20px;
+}
+
+.contact-me p{
+  height:25px;
+  margin:30px auto 50px;
+}
+.footer
+{
+  color:white;
+  text-align: center;
+  background-color:	yellow;
+}
+.contact-detail{
+  padding-top: 20px;
+}
+.company-icons{
+  padding: 10px 20px;
+}
+.links{
+  font-size: 25px;
+  color: white;
+  padding-right: 20px;
+}
